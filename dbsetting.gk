@@ -1,0 +1,12 @@
+db name ---> phpauth
+host ---> localhost
+username ---> root
+password ---> root
+
+collection ---> utf8mb4_unicode_ci
+
+using php7.
+
+table has three column. for id, username, password and salt.
+
+pass အား encrypt သံုးျပီး သိမ္းဆည္းျခင္း
