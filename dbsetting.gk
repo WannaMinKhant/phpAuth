@@ -9,4 +9,6 @@ using php7.
 
 table has three column. for id, username, password and salt.
 
-pass အား encrypt သံုးျပီး သိမ္းဆည္းျခင္း
+id as int , username as varchar 255 , password as varchar 255, salt as varchar 255
+
+pass အား encrypt သံုးျပီး သိမ္းဆည္းျခင္းႏွင့္ salt ထည္္ျခင္း
