@@ -16,9 +16,32 @@
 			margin:0;
 			padding: 0;
 		}
+		p{
+			padding-top:20px;
+			text-align: center;
+			color:#fff;
+			font-size: 1.3em;
+		}
 		.wrapper{
 			margin:0 auto;
 			width: 500px;
+		}
+		.SignUp, .login{
+			margin:0 auto;
+			display: block;
+			width: 60%;
+			height: 220px;
+			background: #0F0;
+			border-radius: 20px;
+
+		}
+		button{
+			margin:10px auto;
+			display: block;
+		}
+		input{
+			margin:5px auto;
+			display: block;
 		}
 	</style>
 </head>
@@ -42,5 +65,9 @@
 	</form>
 	</div>
 	</div>
+	<!-- <script>
+		alert("Hello");
+		x = document.getElementsByClassName("login")
+	</script> -->
 </body>
 </html>
